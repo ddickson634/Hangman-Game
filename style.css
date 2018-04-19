@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  font-size: 100px;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  background-color: red;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 25px;
+  margin: 0 auto;
+}
+
+p.bigger {
+  font-size: 50px;
+}
+
+p#hint{
+    margin: 20px;
+}
