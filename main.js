@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const words = ["tiger", "lion", "panther", "cheetah"];
+    const words = ["tiger", "lion", "panther", "cheetah", "jaguar", "cougar", "leopard"];
     const input = document.querySelector("#input");
     const board = document.querySelector("#wordguess");
     const submit = document.querySelector("#submitguess");
+    
 
     let answer = "";
     let guessedLetters = [];
